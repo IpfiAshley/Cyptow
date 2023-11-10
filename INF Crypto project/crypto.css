@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color:#323946;
+    --text-color:black;
+    --second-text-color:#fff;
+    --main-color: #0ef;
+    
+
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.contai{
+    width: 100%;
+    height:100vh;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem  9% 2rem;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: var(--second-text-color);
+    font-weight: 400;
+    cursor: default;
+}
+
+header{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.navbar a{
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    color: var(--second-text-color);
+    transition:.3s;
+}
+
+
+.home-content  h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content p{
+    font-size:1.6rem ;
+    width: 35%
+}
+
+.companies{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: orange;
+    border: 1px solid var(--second-text-color);
+    padding: 20px 30px;
+    border-radius: 9px;
+    gap: 9px;
+  
+    
+}
+
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+}
+
+.footericon a{
+    display: inline-flex;
+    justify-self:center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+}
+
+.footericon a i{
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+}
